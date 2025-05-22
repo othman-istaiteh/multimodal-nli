@@ -27,8 +27,11 @@ dataset/
 │   └── tts_generated/
 ├── dev.csv
 ├── test.csv
-└── train.csv
+├── train_part_1.csv
+└── train_part_2.csv
+
 ```
+> **Note:** The original `train.csv` file has been split into two smaller files, `train_part_1.csv` and `train_part_2.csv`, to accommodate GitHub file size limits.
 
 ### 📝 Data Composition
 
@@ -61,10 +64,9 @@ Each CSV contains these columns:
 1. Download audio components:
    - [FLEURS recordings](https://drive.google.com/drive/folders/1epNXU_WdzcLrLN7xI9WUgCYCyhg8dw-R)
    - [TTS-generated speech (English only)](https://drive.google.com/drive/folders/1sYs46xvymAelD807kVdyEgmv9vea-15B)
-
 2. Place the downloaded files in the `audio/` directory maintaining the folder structure.
-
-3. You may need to replace the relative path `audio/` with the full absolute path for premise and hypothesis audio files in the CSVs.
+3. The training data has been split into two parts (`train_part_1.csv` and `train_part_2.csv`) due to file size limitations. Please ensure you use both parts for training.
+4. You may need to replace the relative path `audio/` with the full absolute path for premise and hypothesis audio files in the CSVs.
 
 ## ⚖️ License
 
