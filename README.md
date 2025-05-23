@@ -62,11 +62,12 @@ Each CSV contains these columns:
 ## 📥 Audio Data Download Instructions
 
 1. Download audio components:
-   - [FLEURS recordings](https://drive.google.com/drive/folders/1epNXU_WdzcLrLN7xI9WUgCYCyhg8dw-R?usp=sharing)
-   - [TTS-generated speech (English only)](https://drive.google.com/drive/folders/16cEVbWeBo7Aiz7XwTfEhnNNXk4HMjaTZ?usp=sharing)
-2. Place the downloaded files in the `audio/` directory maintaining the folder structure.
-3. The training data has been split into two parts (`train_part_1.csv` and `train_part_2.csv`) due to file size limitations. Please ensure you use both parts for training.
-4. You may need to replace the relative path `audio/` with the full absolute path for premise and hypothesis audio files in the CSVs.
+   - [FLEURS recordings (ZIP)](https://drive.google.com/file/d/1RdTbeLyYT6f7SzgEPMwRppX33L5GRfUa/view?usp=sharing)
+   - [TTS-generated speech (ZIP)](https://drive.google.com/file/d/17h5LUJ7FFnoQOt8GETMpUUytPjOB_tRA/view?usp=sharing)
+2. Move the downloaded ZIP files into the `dataset/audio/` directory.
+3. Unzip them inside the `dataset/audio/` folder.
+4. The training data has been split into two parts (`train_part_1.csv` and `train_part_2.csv`) due to file size limitations. Please ensure you use both parts for training.
+5. You may need to replace the relative path `audio/` with the full absolute path for premise and hypothesis audio files in the CSVs.
 
 ## ⚖️ License
 
