@@ -94,8 +94,9 @@ If you use this dataset, please cite our paper:
 ```bibtex
 @inproceedings{istaiteh2025beyond,
   title={Beyond Similarity Scoring: Detecting Entailment and Contradiction in Multilingual and Multimodal Contexts},
-  author={Istaiteh, Othman and Mdhaffar, Salima and Estève, Yannick},
-  booktitle={Interspeech 2025, Accepted Paper},
+  author={Istaiteh, Othman and Mdhaffar, Salima and Est{\`e}ve, Yannick},
+  booktitle={Proc. Interspeech 2025},
+  pages={286--290},
   year={2025}
 }
 ```
