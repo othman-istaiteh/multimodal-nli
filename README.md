@@ -11,6 +11,12 @@ This dataset supports multilingual and multimodal Natural Language Inference (NL
 
 📥 **Hugging Face Dataset:** You can access and download the dataset from [Hugging Face](https://huggingface.co/datasets/oist/multimodal_nli_dataset)
 
+## 💡 Related Model
+
+The **MMNLI model described in our Interspeech 2025 paper** is available on Hugging Face:  
+[https://huggingface.co/oist/multimodal_nli_model](https://huggingface.co/oist/multimodal_nli_model)  
+
+It is trained to perform multilingual and multimodal NLI across text-text, text-speech, speech-text, and speech-speech modality pairs, enabling classification of entailment, contradiction, or neutral relationships between premise and hypothesis pairs in the dataset.
 
 - **4 Modality Combinations**:
   - Text-Text (T-T)
